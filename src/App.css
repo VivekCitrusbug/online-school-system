@@ -1,0 +1,195 @@
+.header{
+    background-color: #6f6d6c;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.footer{
+    
+    color: white;
+    background-color: #6f6d6c;
+    line-height: 1rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.listcontainer{
+    list-style-type: none;
+    padding: 1rem;
+    background-color: rgb(5, 5, 48);
+    color: white;
+}
+
+
+
+/* list container css: */
+/* General container styling for the list */
+.listcontainer {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0 auto;
+    max-width: 400px; /* Set a max width for the list */
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* List items styling */
+  .listcontainer li {
+    display: flex;
+    justify-content: space-between; /* Align label and button horizontally */
+    align-items: center; /* Vertically center items */
+    padding: 15px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .listcontainer li:last-child {
+    border-bottom: none; /* Remove bottom border for last item */
+  }
+  
+  /* Hover effect for list items */
+  .listcontainer li:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Styling for the checkbox */
+  .listcontainer li input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  /* Label styling for item name */
+  .listcontainer li label {
+    flex: 1;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  /* Delete button styling */
+  .listcontainer li button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .listcontainer li button:hover {
+    background-color: #e60000;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    .listcontainer {
+      max-width: 100%;
+      margin: 0 15px;
+    }
+  
+    .listcontainer li {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .listcontainer li button {
+      font-size: 12px;
+    }
+  }
+  
+
+
+/* css for add item div input with add btn from: */
+.addnewitem {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center align items */
+    margin: 1rem auto; /* Add margin around the component */
+    padding: 20px; /* Add padding for inner spacing */
+    /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: max-content; /* Subtle shadow for depth */
+}
+
+.addnewitem form {
+    display: flex; /* Use flexbox for form layout */
+    width: auto; /* Full width of the container */
+}
+
+.addnewitem input[type="text"] {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px; /* Add padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Larger text for readability */
+    margin-right: 10px; /* Space between input and button */
+    transition: border-color 0.3s; /* Transition for border color on focus */
+}
+
+.addnewitem input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.addnewitem button {
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    font-size: 16px; /* Larger text for readability */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition for background color */
+}
+
+.addnewitem button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.addnewitem button:focus {
+    outline: none; /* Remove default outline */
+}
+
+
+/* search box div */
+.searchbox {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center align items */
+    margin: 1rem auto; /* Add margin around the component */
+    padding: 20px; /* Add padding for inner spacing */
+    /* Light background color for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: max-content; /* Subtle shadow for depth */
+}
+
+
+.searchbox input[type="text"] {
+    flex: 1; /* Allow input to take available space */
+    padding: 10px; /* Add padding inside the input */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 16px; /* Larger text for readability */
+    margin-right: 10px; /* Space between input and button */
+    transition: border-color 0.3s; /* Transition for border color on focus */
+}
+
+.searchbox input[type="text"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+p{
+    text-align: center;
+    color: red;
+}
